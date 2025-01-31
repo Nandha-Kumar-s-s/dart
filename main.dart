@@ -16,4 +16,17 @@ void main(){
   print("Hello, ${name}");
   print("Boolean value = ${isadult}");
   print("Dynamic value = $someValue");
+
+  // Function
+  walk();
+  print(sumOfTwoNumbers(2, 3));
+}
+
+// Void function return nothing
+void walk(){
+  print("I am walking");
+}
+
+int sumOfTwoNumbers(int a, int b){
+  return a + b;
 }
